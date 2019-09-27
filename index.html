@@ -2,9 +2,15 @@
 <html>
 <head>
 
+<style>
+	.cell{
+		background-color: #AA0066;
+	}
+</style>
+
 </head>
 	<body>
-<table border="1" width="400px" height="300px" rules="all">
+<table border="1" width="400px" height="300px" rules="all" align="center">
 
 	<tr>
 		<td>1a</td>
@@ -14,7 +20,7 @@
 	</tr>
 	<tr>
 		<td>1b</td>
-		<td rowspan="2" bgcolor="pink">
+		<td rowspan="2" bgcolor="pink"> <!--TAB1-->
 <center>
 	<table border="1" width="75%" height="150px" bgcolor="yellow">
 	<tr>
@@ -66,6 +72,106 @@
 	</tr>
 
 </table>
+<br/><br/>
+
+
+
+<table border="2" rules="all" align="center" width="500px" height="150px">
+	<tr>
+		<td>1a</td>
+		<td>2a</td>
+		<td>3a</td>
+		<td>4a</td>
+		<td>5a</td>
+	</tr>
+	<tr>
+		<td>1b</td>
+		<td colspan="3" rowspan="3" align="center" class="cell">2b</td>
+		<td>5b</td>
+	</tr>
+
+	<tr>
+		<td>1c</td>
+
+		<td>5c</td>
+	</tr>
+	<tr>
+		<td>1d</td>
+
+		<td>5d</td>
+	</tr>
+	<tr>
+		<td>1e</td>
+		<td>2e</td>
+		<td>3e</td>
+		<td>4e</td>
+		<td>5e</td>
+	</tr> <!--TAB2-->
+
+</table>
+
+<br/><br/>
+
+<table border="2" rules="all" align="center" width="500px" height="150px"> <!--TAB3-->
+	<tr align=center>
+		<td>5a</td>
+		<td>5b</td>
+		<td>5c</td>
+		<td>5d</td>
+		<td>5e</td>
+	</tr>
+	<tr align=center>
+		<td class="cell" rowspan="4">1b</td>
+		<td class="cell" rowspan="3">2b</td>
+		<td class="cell" rowspan="2">3b</td>
+		<td class="cell">4b</td>
+		<td>5b</td>
+	</tr>
+	<tr align=center>
+		
+		
+		
+		<td>4c</td>
+		<td>5c</td>
+	</tr>
+	<tr align=center>
+		
+		
+		<td>3d</td>
+		<td>4d</td>
+		<td>5d</td>
+	</tr>
+	<tr align=center>
+		
+		<td>2e</td>
+		<td>3e</td>
+		<td>4e</td>
+		<td>5e</td>
+	</tr>
+</table>
+
+<br/><br/>
+
+<table border="1"  width="150px" height="400px" align="center" cellspacing="15px" class="cell"> <!--TAB4--> 
+	<tr>
+		<td height="35px" weight="35px">1a</td>
+		<td height="35px" weight="35px">2a</td>
+		<td height="35px" weight="35px">3a</td>
+	</tr>
+	<tr>
+		<td rowspan="2" >1b</td>
+		<td colspan="2" bgcolor="green" height="125px">2b</td>
+		
+	</tr>
+	<tr>
+		
+		<td bgcolor="green">2c</td>
+		<td bgcolor="green">3c</td>
+	</tr>
+
+</table>
+
+
 
 
 
